@@ -22,3 +22,6 @@ to order a pizza the app will generate a pizza based on the toppings they all en
 - Build the finished pizza output page* - 3
 - Update the design of all pages - 3
 - Testing/Troubleshooting - 5
+
+## Design
+* [Screen Design](DesignDocuments/PizzaGeneratorWireframe.png)
