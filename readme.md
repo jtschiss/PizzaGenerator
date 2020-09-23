@@ -25,3 +25,4 @@ to order a pizza the app will generate a pizza based on the toppings they all en
 
 ## Design
 * [Screen Design](DesignDocuments/PizzaGeneratorWireframe.png)
+* [Time Log](src/timeLog.md)
