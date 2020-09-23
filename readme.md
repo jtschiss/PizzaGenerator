@@ -13,15 +13,15 @@ to order a pizza the app will generate a pizza based on the toppings they all en
 - I want to be able to sort which toppings go on the pizza by how popular they are so that we can try something new
 
 ## Project Plan
-- Build database* - 1
-- Populate database* - 1
-- Build sign up and log in pages* - 3
-- Build edit account page* - 3
-- Build group creation page - 2
-- Build the pizza options page* - 4
-- Build the finished pizza output page* - 3
-- Update the design of all pages - 3
-- Testing/Troubleshooting - 5
+- Build database*
+- Populate database*
+- Build sign up and log in pages*
+- Build edit account page*
+- Build group creation page
+- Build the pizza options page*
+- Build the finished pizza output page*
+- Update the design of all pages
+- Testing/Troubleshooting
 
 ## Design
 * [Screen Design](DesignDocuments/PizzaGeneratorWireframe.png)
