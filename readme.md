@@ -1,9 +1,17 @@
 # Pizza Builder
 
 ## Problem Statement
+There have been many times where I was with a group and we wanted to order a pizza but could not decide
+what kind to get. I used to work at a pizza place and whenever we were trying to decide what to
+eat for dinner there were always people saying that they don't like certain toppings or that we
+always have the same thing. I thought it would be a cool idea to build an application that would
+generate a pizza that everyone will like.
+
 This app is will allow users to create an account that will store their favorite pizza toppings.
 They can then join groups with their friends, family, or coworkers and whenever that group wants
-to order a pizza the app will generate a pizza based on the toppings they all enjoy.
+to order a pizza the app will generate a pizza based on the toppings they all enjoy. The users
+will also be able to adjust the amount of toppings and if they want topping that are common or not
+to mix up what kind of pizza they get.
 
 ## User Stories
 - I want to be able to create an account so that I don't have to keep reentering the topping I like
