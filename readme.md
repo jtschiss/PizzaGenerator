@@ -15,4 +15,10 @@ to order a pizza the app will generate a pizza based on the toppings they all en
 ## Project Plan
 - Build database* - 1
 - Populate database* - 1
-- 
+- Build sign up and log in pages* - 3
+- Build edit account page* - 3
+- Build group creation page - 2
+- Build the pizza options page* - 4
+- Build the finished pizza output page* - 3
+- Update the design of all pages - 3
+- Testing/Troubleshooting - 5
