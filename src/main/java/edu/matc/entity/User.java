@@ -12,10 +12,9 @@ import javax.persistence.*;
  */
 
 @Entity(name = "User")
-@Table(name = "User")
+@Table(name = "user")
 public class User {
     @Id
-    @ManyToMany
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
