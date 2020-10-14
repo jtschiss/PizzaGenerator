@@ -1,0 +1,17 @@
+INSERT INTO toppings (topping, popularity) VALUES ('Cheddar Cheese', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Feta Cheese', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Sausage', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Pepperoni', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Ham', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Bacon', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Chicken', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Jalapenos', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Red Onions', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Yellow Onions', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Tomatoes', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Black Olives', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Green Olives', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Mushrooms', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Pineapple', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Green Peppers', 0);
+INSERT INTO toppings (topping, popularity) VALUES ('Spinach', 0);
