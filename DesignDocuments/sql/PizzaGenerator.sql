@@ -33,16 +33,6 @@ CREATE TABLE `groups` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `groups`
---
-
-LOCK TABLES `groups` WRITE;
-/*!40000 ALTER TABLE `groups` DISABLE KEYS */;
-INSERT INTO `groups` VALUES (1,'test','test',1),(2,'testing','$2y$10$PspXzrxGcSh0PrrCmJ9KyeVy6NQCAzmy4/REH7yWPutsDbd9oz6ni',5),(3,'joahs group','$2y$10$vIAUWoDShs3DdzQFVGhR2egix7m7ZK0V0x4/947Q5oQ2QOHQLlpva',5),(4,'Schissels','$2y$10$SI.0ZnZxxTRbJAnnyu5Dr.1f6kcyW0VUQQ5OXSH1fI2xqZFlah.AG',5);
-/*!40000 ALTER TABLE `groups` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `liked_toppings`
 --
 
@@ -56,16 +46,6 @@ CREATE TABLE `liked_toppings` (
   KEY `liked_toppings_toppings_fk` (`topping_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `liked_toppings`
---
-
-LOCK TABLES `liked_toppings` WRITE;
-/*!40000 ALTER TABLE `liked_toppings` DISABLE KEYS */;
-INSERT INTO `liked_toppings` VALUES (1,1),(3,1),(5,1),(6,1),(1,3),(3,3),(5,3),(1,4),(3,4),(5,4),(6,4),(1,5),(3,5),(1,6),(3,6),(4,6),(5,6),(1,7),(3,7),(1,8),(3,8),(1,9),(3,9),(1,10),(3,10),(1,11),(3,11),(1,12),(3,12),(5,12),(6,12),(1,13),(3,13),(7,14),(1,15),(3,15),(1,16),(3,16);
-/*!40000 ALTER TABLE `liked_toppings` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `toppings`
@@ -107,15 +87,6 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `user`
---
-
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'Joah','$2y$10$IGLb/LF3eIrAv8vZXjIieeFbe6KJn.834qNZthCqUS5F1SEf0qJEi'),(2,'admin','$2y$10$M.v9RFktQ9ZqCogxDpDfB.gdkhegPPo.y86OYney31UMiLbGfPcvW'),(3,'jtschiss','$2y$10$tPUqfKt274r8s9Pph03GXeaSDwXBFC0nsxCIwGGcGtxknCSxNaHRa'),(4,'joahschissel','$2y$10$MmE8..g5TM6Y.ygeBe/G9ezvr3gXsMul/TRmwaVwNj7PQpg01h82a'),(5,'Zander','$2y$10$1CmQA2XtoCrVHLpx2W2hQOoUUwjItyNIO2Oh5ATJl2ftCZNHL7iTq'),(6,'Nolan','$2y$10$AuwsoPSR/6/6nFTL30xwweS1cHWkTYHiTzV1h39AYDchpaZVra7gG'),(7,'Monica','$2y$10$xOzl22hJhPAlvmch/L2cg.XBNwEQucyVVixVe/5Xat/p1xsgbLjXC');
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `user_group`
@@ -129,17 +100,6 @@ CREATE TABLE `user_group` (
   `group_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `user_group`
---
-
-LOCK TABLES `user_group` WRITE;
-/*!40000 ALTER TABLE `user_group` DISABLE KEYS */;
-INSERT INTO `user_group` VALUES (1,1),(5,4),(5,2),(1,4),(6,4),(7,4);
-/*!40000 ALTER TABLE `user_group` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
