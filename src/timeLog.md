@@ -8,3 +8,4 @@
 | 3 | 2 hours | Working on project checkpoint 1 |
 | 5 | 2 hours | working on excercise 4 |
 | 6 | 12 hours | catching up on weeks 4, 5, and 6 |
+| 9 | 5 hours | catching up on weeks 7, 8, and 9 |

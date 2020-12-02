@@ -42,13 +42,13 @@ public class UserDao {
 
     /**
      * insert User
-     * @param book  User to be inserted
+     * @param user  User to be inserted
      */
-    public int insert(User book) {
+    public int insert(User user) {
         int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(book);
+        id = (int)session.save(user);
         transaction.commit();
         session.close();
         return id;
@@ -56,12 +56,12 @@ public class UserDao {
 
     /**
      * Delete a User
-     * @param book User to be deleted
+     * @param user User to be deleted
      */
-    public void delete(User book) {
+    public void delete(User user) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.delete(book);
+        session.delete(user);
         transaction.commit();
         session.close();
     }
