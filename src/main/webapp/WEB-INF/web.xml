@@ -14,11 +14,11 @@
   </login-config>
 
 
-  <!-- Protect the user pages. -->
+  <!-- Protect everything in the user directory -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>user</web-resource-name>
-      <url-pattern>/user.jsp</url-pattern>
+      <url-pattern>/user/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>user</role-name>
