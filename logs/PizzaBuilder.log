@@ -1,28 +1,14 @@
-[INFO ] 2020-10-14 14:02:53.551 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:07:38.265 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:08:45.202 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:09:24.634 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:12:39.059 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:14:33.350 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:15:14.261 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:15:33.509 [main] Database - properties file: /database.properties
-[INFO ] 2020-10-14 14:15:44.804 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:06:40.873 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:11:25.695 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:13:59.134 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:19:50.008 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:42:26.982 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:50:47.820 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 06:52:29.655 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 07:13:48.753 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-02 17:54:37.954 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:05:28.757 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:17:57.447 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:19:51.944 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:22:40.460 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:26:25.911 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:29:56.384 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:41:11.552 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:48:46.169 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:52:34.458 [main] Database - properties file: /database.properties
-[INFO ] 2020-12-08 15:54:16.073 [main] Database - properties file: /database.properties
+[INFO ] 2020-12-08 18:46:26.721 [main] UserRoleDaoTest - username: Joseph Password: helloworld
+[INFO ] 2020-12-08 18:47:08.415 [main] UserRoleDaoTest - username: Joseph role: user
+[INFO ] 2020-12-08 18:49:41.080 [main] UserRoleDaoTest - username: Joseph role: user
+[INFO ] 2020-12-08 18:52:24.987 [main] UserRoleDaoTest - username: Joseph role: user
+[INFO ] 2020-12-08 18:53:41.805 [main] UserRoleDaoTest - username: Joseph role: user
+[INFO ] 2020-12-08 19:06:11.166 [main] UserRoleDaoTest - username: Herbert role: user
+[INFO ] 2020-12-08 19:06:39.287 [main] UserRoleDaoTest - username: Joseph role: test
+[DEBUG] 2020-12-08 19:06:46.725 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@587f4f63, edu.matc.entity.Role@28e7bb31, edu.matc.entity.Role@6fe04f2a, edu.matc.entity.Role@1f758e4f]
+[INFO ] 2020-12-08 19:06:46.728 [main] UserRoleDaoTest - roles: [edu.matc.entity.Role@587f4f63, edu.matc.entity.Role@28e7bb31, edu.matc.entity.Role@6fe04f2a, edu.matc.entity.Role@1f758e4f]
+[DEBUG] 2020-12-08 19:07:01.389 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@112c2930, edu.matc.entity.Role@beabd6b, edu.matc.entity.Role@38de5daf, edu.matc.entity.Role@621624b1]
+[INFO ] 2020-12-08 19:07:01.392 [main] UserRoleDaoTest - roles: [edu.matc.entity.Role@112c2930, edu.matc.entity.Role@beabd6b, edu.matc.entity.Role@38de5daf, edu.matc.entity.Role@621624b1]
+[INFO ] 2020-12-08 19:12:10.694 [main] UserRoleDaoTest - username: Joseph role: test
+[DEBUG] 2020-12-08 19:12:10.819 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@3e74fd84, edu.matc.entity.Role@147efd9, edu.matc.entity.Role@1e120628, edu.matc.entity.Role@4e4894d]
+[INFO ] 2020-12-08 19:12:10.820 [main] UserRoleDaoTest - roles: [edu.matc.entity.Role@3e74fd84, edu.matc.entity.Role@147efd9, edu.matc.entity.Role@1e120628, edu.matc.entity.Role@4e4894d]
