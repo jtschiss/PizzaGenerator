@@ -125,3 +125,183 @@
 [INFO ] 2020-12-15 16:05:57.596 [http-nio-8080-exec-5] Profile - liked topping list: [Sausage, Pepperoni]
 [INFO ] 2020-12-15 16:05:57.596 [http-nio-8080-exec-5] Profile - topping: Sausage
 [INFO ] 2020-12-15 16:05:57.596 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:32:13.566 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:32:13.568 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:32:13.665 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7ec13984, edu.matc.entity.Topping@79d4ff58, edu.matc.entity.Topping@14485747]
+[DEBUG] 2020-12-15 16:32:13.850 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@6ace919c, edu.matc.entity.Role@4005e485, edu.matc.entity.Role@5f5c187d, edu.matc.entity.Role@464400b3]
+[INFO ] 2020-12-15 16:32:43.173 [http-nio-8080-exec-5] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:32:43.174 [http-nio-8080-exec-5] Profile - liked topping list: [Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:32:43.174 [http-nio-8080-exec-5] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:32:43.174 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:34:03.079 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:34:03.080 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:34:03.178 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5d221b20, edu.matc.entity.Topping@7ec13984, edu.matc.entity.Topping@79d4ff58]
+[DEBUG] 2020-12-15 16:34:03.335 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@38d42ab7, edu.matc.entity.Role@6ace919c, edu.matc.entity.Role@4005e485, edu.matc.entity.Role@5f5c187d]
+[INFO ] 2020-12-15 16:34:31.316 [http-nio-8080-exec-3] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:34:31.318 [http-nio-8080-exec-3] Profile - liked topping list: [Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:34:31.318 [http-nio-8080-exec-3] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:34:31.318 [http-nio-8080-exec-3] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:35:49.570 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:35:49.571 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:35:49.660 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7e8f23ad, edu.matc.entity.Topping@5d221b20, edu.matc.entity.Topping@7433ca19]
+[DEBUG] 2020-12-15 16:35:49.818 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@74ebd159, edu.matc.entity.Role@1850f2da, edu.matc.entity.Role@38d42ab7, edu.matc.entity.Role@6ace919c]
+[INFO ] 2020-12-15 16:36:18.147 [http-nio-8080-exec-5] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:36:18.149 [http-nio-8080-exec-5] Profile - liked topping list: [Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:36:18.149 [http-nio-8080-exec-5] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:36:18.149 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:47:34.792 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5c5f0edc, edu.matc.entity.Topping@153cfd86, edu.matc.entity.Topping@1b1e1f02]
+[INFO ] 2020-12-15 16:50:49.171 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@77cddc0c, edu.matc.entity.Topping@47eaf55c, edu.matc.entity.Topping@2e3252]
+[INFO ] 2020-12-15 16:51:17.159 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:51:17.160 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:51:17.310 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7e8f23ad, edu.matc.entity.Topping@69f9b561, edu.matc.entity.Topping@38022758]
+[DEBUG] 2020-12-15 16:51:17.512 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@455cbf18, edu.matc.entity.Role@24aedcc5, edu.matc.entity.Role@74ebd159, edu.matc.entity.Role@1850f2da]
+[INFO ] 2020-12-15 16:51:46.851 [http-nio-8080-exec-4] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:51:46.852 [http-nio-8080-exec-4] Profile - liked topping list: [Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:51:46.852 [http-nio-8080-exec-4] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:51:46.852 [http-nio-8080-exec-4] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:54:51.868 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:54:51.869 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:54:51.961 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@41d20f06, edu.matc.entity.Topping@1573e8a5, edu.matc.entity.Topping@3e753289]
+[DEBUG] 2020-12-15 16:54:52.123 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@7dd3981e, edu.matc.entity.Role@59313495, edu.matc.entity.Role@4a04ca74, edu.matc.entity.Role@455cbf18]
+[INFO ] 2020-12-15 16:55:20.422 [http-nio-8080-exec-5] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:55:20.424 [http-nio-8080-exec-5] Profile - liked topping list: [Sausage, Pepperoni, Bacon]
+[INFO ] 2020-12-15 16:55:20.424 [http-nio-8080-exec-5] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:55:20.424 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:55:20.425 [http-nio-8080-exec-5] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:56:14.731 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:56:14.732 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:56:14.826 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@41d20f06, edu.matc.entity.Topping@1573e8a5, edu.matc.entity.Topping@3e753289]
+[DEBUG] 2020-12-15 16:56:14.949 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@7dd3981e, edu.matc.entity.Role@59313495, edu.matc.entity.Role@4a04ca74, edu.matc.entity.Role@455cbf18]
+[INFO ] 2020-12-15 16:58:29.700 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:58:29.702 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 16:58:29.793 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7adae08e, edu.matc.entity.Topping@6be766d1, edu.matc.entity.Topping@49c83262]
+[DEBUG] 2020-12-15 16:58:29.977 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@2109a691, edu.matc.entity.Role@e521067, edu.matc.entity.Role@3bab95ca, edu.matc.entity.Role@71ad959b]
+[INFO ] 2020-12-15 16:58:59.423 [http-nio-8080-exec-5] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:58:59.426 [http-nio-8080-exec-5] Profile - liked topping list: [Sausage, Pepperoni, Bacon]
+[INFO ] 2020-12-15 16:58:59.426 [http-nio-8080-exec-5] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:58:59.427 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:58:59.427 [http-nio-8080-exec-5] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:58:59.428 [http-nio-8080-exec-6] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:58:59.428 [http-nio-8080-exec-6] Profile - liked topping list: [Sausage, Pepperoni, Bacon]
+[INFO ] 2020-12-15 16:58:59.428 [http-nio-8080-exec-6] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:58:59.428 [http-nio-8080-exec-6] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:58:59.428 [http-nio-8080-exec-6] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] Profile - liked topping list: [Sausage, Pepperoni, Bacon, Tomatoes]
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:59:03.649 [http-nio-8080-exec-7] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - liked topping list: [Sausage, Pepperoni, Bacon, Jalapenos, Tomatoes]
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - topping: Jalapenos
+[INFO ] 2020-12-15 16:59:25.042 [http-nio-8080-exec-10] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 16:59:33.882 [http-nio-8080-exec-4] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:59:33.883 [http-nio-8080-exec-4] Profile - liked topping list: [Sausage, Pepperoni, Bacon, Tomatoes]
+[INFO ] 2020-12-15 16:59:33.883 [http-nio-8080-exec-4] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:59:33.883 [http-nio-8080-exec-4] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:59:33.883 [http-nio-8080-exec-4] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:59:33.883 [http-nio-8080-exec-4] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - liked topping list: [Cheddar Cheese, Sausage, Pepperoni, Bacon, Jalapenos, Red Onions, Tomatoes, Pineapple, Green Peppers]
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Sausage
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Bacon
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Jalapenos
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Red Onions
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Pineapple
+[INFO ] 2020-12-15 16:59:58.481 [http-nio-8080-exec-3] Profile - topping: Green Peppers
+[INFO ] 2020-12-15 17:00:16.607 [http-nio-8080-exec-5] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - liked topping list: [Cheddar Cheese, Sausage, Pepperoni, Ham, Bacon, Chicken, Jalapenos, Red Onions, Yellow Onions, Tomatoes, Black Olives, Green Olives, Pineapple, Green Peppers]
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Ham
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Bacon
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Chicken
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Jalapenos
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Red Onions
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Yellow Onions
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Black Olives
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Green Olives
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Pineapple
+[INFO ] 2020-12-15 17:00:16.608 [http-nio-8080-exec-5] Profile - topping: Green Peppers
+[INFO ] 2020-12-15 17:03:03.947 [main] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:03:03.949 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 17:03:04.037 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@395281c2, edu.matc.entity.Topping@4eb63dc8, edu.matc.entity.Topping@402d6012]
+[DEBUG] 2020-12-15 17:03:04.185 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@42ecc554, edu.matc.entity.Role@443af394, edu.matc.entity.Role@734f8317, edu.matc.entity.Role@7dd3981e]
+[INFO ] 2020-12-15 17:03:35.557 [http-nio-8080-exec-6] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - liked topping list: [Cheddar Cheese, Sausage, Pepperoni, Ham, Bacon, Chicken, Jalapenos, Red Onions, Yellow Onions, Tomatoes, Black Olives, Green Olives, Pineapple, Green Peppers]
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Ham
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Bacon
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Chicken
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Jalapenos
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Red Onions
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Yellow Onions
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Black Olives
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Green Olives
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Pineapple
+[INFO ] 2020-12-15 17:03:35.558 [http-nio-8080-exec-6] Profile - topping: Green Peppers
+[INFO ] 2020-12-15 17:04:19.882 [http-nio-8080-exec-10] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:04:19.882 [http-nio-8080-exec-10] Profile - liked topping list: [Cheddar Cheese, Feta Cheese, Sausage, Pepperoni, Bacon]
+[INFO ] 2020-12-15 17:04:19.882 [http-nio-8080-exec-10] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:04:19.883 [http-nio-8080-exec-10] Profile - topping: Feta Cheese
+[INFO ] 2020-12-15 17:04:19.883 [http-nio-8080-exec-10] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:04:19.883 [http-nio-8080-exec-10] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 17:04:19.883 [http-nio-8080-exec-10] Profile - topping: Bacon
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] Profile - liked topping list: [Cheddar Cheese, Feta Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] Profile - topping: Feta Cheese
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:04:22.605 [http-nio-8080-exec-1] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 17:04:24.721 [http-nio-8080-exec-2] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:04:24.721 [http-nio-8080-exec-2] Profile - liked topping list: [Cheddar Cheese, Feta Cheese, Sausage]
+[INFO ] 2020-12-15 17:04:24.721 [http-nio-8080-exec-2] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:04:24.721 [http-nio-8080-exec-2] Profile - topping: Feta Cheese
+[INFO ] 2020-12-15 17:04:24.721 [http-nio-8080-exec-2] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:04:26.902 [http-nio-8080-exec-4] LikedToppingsDao - Results: java.lang.String
+[INFO ] 2020-12-15 17:04:26.902 [http-nio-8080-exec-4] Profile - liked topping list: [Cheddar Cheese, Feta Cheese]
+[INFO ] 2020-12-15 17:04:26.902 [http-nio-8080-exec-4] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:04:26.902 [http-nio-8080-exec-4] Profile - topping: Feta Cheese
+[INFO ] 2020-12-15 17:06:09.994 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 17:06:10.081 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5834198f, edu.matc.entity.Topping@4eb63dc8, edu.matc.entity.Topping@402d6012]
+[DEBUG] 2020-12-15 17:06:10.245 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@734f8317, edu.matc.entity.Role@7dd3981e, edu.matc.entity.Role@59313495, edu.matc.entity.Role@4a04ca74]
+[INFO ] 2020-12-15 17:06:37.534 [http-nio-8080-exec-5] Profile - liked topping list: [Cheddar Cheese]
+[INFO ] 2020-12-15 17:06:37.535 [http-nio-8080-exec-5] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:06:39.497 [http-nio-8080-exec-7] Profile - liked topping list: [Cheddar Cheese]
+[INFO ] 2020-12-15 17:06:39.499 [http-nio-8080-exec-7] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:06:42.624 [http-nio-8080-exec-8] Profile - liked topping list: []
+[INFO ] 2020-12-15 17:06:51.990 [http-nio-8080-exec-9] Profile - liked topping list: [Pepperoni, Bacon, Tomatoes]
+[INFO ] 2020-12-15 17:06:51.991 [http-nio-8080-exec-9] Profile - topping: Pepperoni
+[INFO ] 2020-12-15 17:06:51.991 [http-nio-8080-exec-9] Profile - topping: Bacon
+[INFO ] 2020-12-15 17:06:51.991 [http-nio-8080-exec-9] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 17:08:06.744 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 17:08:06.832 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@395281c2, edu.matc.entity.Topping@4eb63dc8, edu.matc.entity.Topping@402d6012]
+[DEBUG] 2020-12-15 17:08:07.010 [main] UserRoleDao - list of roles: [edu.matc.entity.Role@7dd3981e, edu.matc.entity.Role@59313495, edu.matc.entity.Role@4a04ca74, edu.matc.entity.Role@455cbf18]
+[INFO ] 2020-12-15 17:08:39.935 [http-nio-8080-exec-7] Profile - liked topping list: []
+[INFO ] 2020-12-15 17:08:49.168 [http-nio-8080-exec-8] Profile - liked topping list: [Cheddar Cheese, Sausage, Ham, Chicken, Red Onions, Tomatoes, Green Olives, Pineapple, Spinach]
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Cheddar Cheese
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Ham
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Chicken
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Red Onions
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Green Olives
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Pineapple
+[INFO ] 2020-12-15 17:08:49.169 [http-nio-8080-exec-8] Profile - topping: Spinach
+[INFO ] 2020-12-15 17:09:12.326 [http-nio-8080-exec-2] Profile - liked topping list: [Sausage, Chicken, Tomatoes, Pineapple]
+[INFO ] 2020-12-15 17:09:12.326 [http-nio-8080-exec-2] Profile - topping: Sausage
+[INFO ] 2020-12-15 17:09:12.326 [http-nio-8080-exec-2] Profile - topping: Chicken
+[INFO ] 2020-12-15 17:09:12.326 [http-nio-8080-exec-2] Profile - topping: Tomatoes
+[INFO ] 2020-12-15 17:09:12.326 [http-nio-8080-exec-2] Profile - topping: Pineapple
