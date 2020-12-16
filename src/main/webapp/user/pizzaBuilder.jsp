@@ -3,15 +3,6 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
 <body>
-<p>Hello ${sessionScope.USERNAME}</p>
-
-<table>
-    <tr>
-        <td>Username</td>
-        <td>${requestScope.user.username}</td>
-    </tr>
-</table>
-
 
 <h1>Select all users that are eating the pizza</h1>
 <form action="/PizzaBuilder/user/buildPizza" method="post">

@@ -3,15 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
 <body>
-<p>Hello ${sessionScope.USERNAME}</p>
-
-<table>
-    <tr>
-        <td>Username</td>
-        <td>${requestScope.user.username}</td>
-    </tr>
-</table>
-
+<h1>Your Liked Toppings</h1>
 <form action="/PizzaBuilder/updateLikedToppings" method="post">
 
         <c:forEach var="topping" items="${requestScope.allToppings}" >
@@ -27,5 +19,8 @@
         <input type="submit" value="Update Liked Toppings">
 
 </form>
+
+<p><a href="../index.jsp">back to home page</a> </p>
+
 </body>
 </html>

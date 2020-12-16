@@ -1,38 +1,45 @@
-[INFO ] 2020-12-15 19:53:12.549 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 19:53:12.637 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@395281c2, edu.matc.entity.Topping@4eb63dc8, edu.matc.entity.Topping@402d6012]
-[INFO ] 2020-12-15 21:44:49.065 [main] PlacesAPIDao - api key: "xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG"
-[INFO ] 2020-12-15 21:51:30.615 [main] PlacesAPIDao - api key: "xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG"
-[INFO ] 2020-12-15 21:52:35.654 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[ERROR] 2020-12-15 21:52:37.513 [main] PlacesAPIDao - PlacesAPIDao mapper.readValue() error: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "summary" (class edu.matc.entity.Places), not marked as ignorable (0 known properties: ])
- at [Source: (String)"{"summary":{"query":"outdoor restaurant","queryType":"NON_NEAR","queryTime":91,"numResults":2,"offset":0,"totalResults":2,"fuzzyLevel":2,"geoBias":{"lat":43.0324,"lon":-89.3843}},"results":[{"type":"POI","id":"g6JpZK84NDA1NTkwMDAzMDgzNjKhY6NVU0GhdqdVbmlmaWVk","score":2.4287514687,"dist":398.35561328563165,"info":"search:ta:840559000308362-US","poi":{"name":"Milio's","phone":"+(1)-(608)-2048790","brands":[{"name":"Milio's Sandwiches"}],"categorySet":[{"id":7315042}],"url":"www.milios.com","catego"[truncated 2125 chars]; line: 1, column: 13] (through reference chain: edu.matc.entity.Places["summary"])
-[INFO ] 2020-12-15 21:53:01.955 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[ERROR] 2020-12-15 21:53:03.601 [main] PlacesAPIDao - PlacesAPIDao mapper.readValue() error: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "summary" (class edu.matc.entity.Places), not marked as ignorable (0 known properties: ])
- at [Source: (String)"{"summary":{"query":"outdoor restaurant","queryType":"NON_NEAR","queryTime":51,"numResults":2,"offset":0,"totalResults":2,"fuzzyLevel":2,"geoBias":{"lat":43.0324,"lon":-89.3843}},"results":[{"type":"POI","id":"g6JpZK84NDA1NTkwMDAzMDgzNjKhY6NVU0GhdqdVbmlmaWVk","score":2.4287514687,"dist":398.35561328563165,"info":"search:ta:840559000308362-US","poi":{"name":"Milio's","phone":"+(1)-(608)-2048790","brands":[{"name":"Milio's Sandwiches"}],"categorySet":[{"id":7315042}],"url":"www.milios.com","catego"[truncated 2125 chars]; line: 1, column: 13] (through reference chain: edu.matc.entity.Places["summary"])
-[INFO ] 2020-12-15 22:04:31.146 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 22:05:24.258 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 22:05:38.516 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:14:42.116 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 23:14:42.205 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7ab2ba47, edu.matc.entity.Topping@40fe8fd5, edu.matc.entity.Topping@37ffe4f3]
-[INFO ] 2020-12-15 23:14:43.784 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:18:58.357 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 23:18:58.448 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@74ce7fdf, edu.matc.entity.Topping@2f60cbf2, edu.matc.entity.Topping@1f26b992]
-[INFO ] 2020-12-15 23:18:59.856 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:20:43.415 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 23:20:43.598 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
-[INFO ] 2020-12-15 23:20:45.004 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:21:30.977 [http-nio-8080-exec-9] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:38:34.102 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 23:38:34.220 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@631bc9f4]
-[INFO ] 2020-12-15 23:38:36.573 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:41:39.450 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-15 23:41:39.602 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
-[INFO ] 2020-12-15 23:41:41.297 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:49:00.088 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-15 23:49:01.110 [main] PlaceFinder - simple places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
-[INFO ] 2020-12-15 23:49:01.112 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
-[INFO ] 2020-12-16 13:47:44.163 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
-[INFO ] 2020-12-16 13:47:44.337 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@782cc5fa, edu.matc.entity.Topping@26d028f7, edu.matc.entity.Topping@a2df0d5]
-[INFO ] 2020-12-16 13:47:46.305 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-16 13:47:47.257 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
-[INFO ] 2020-12-16 13:47:47.761 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
-[INFO ] 2020-12-16 13:48:39.079 [http-nio-8080-exec-8] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:52:08.659 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 15:52:08.766 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@ae3c140, edu.matc.entity.Topping@71b0289b, edu.matc.entity.Topping@6f2d3391]
+[INFO ] 2020-12-16 15:52:10.572 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:52:11.380 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:52:11.867 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 15:55:02.792 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 15:55:02.912 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@2dc21583, edu.matc.entity.Topping@47c96f2c, edu.matc.entity.Topping@210a26b]
+[INFO ] 2020-12-16 15:55:04.912 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:55:05.907 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:55:06.427 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 15:57:58.550 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 15:57:58.663 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5a13f1f7, edu.matc.entity.Topping@5dae5a70, edu.matc.entity.Topping@67fac095]
+[INFO ] 2020-12-16 15:57:59.971 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:58:00.830 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 15:58:01.315 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:07:45.326 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:07:45.506 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5a13f1f7, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
+[INFO ] 2020-12-16 16:07:47.631 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:07:48.650 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:07:49.151 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:10:26.680 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:10:26.769 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
+[INFO ] 2020-12-16 16:10:28.196 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:10:29.057 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:10:29.625 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:15:36.499 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:15:36.617 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@5a13f1f7, edu.matc.entity.Topping@7686f701, edu.matc.entity.Topping@5dae5a70]
+[INFO ] 2020-12-16 16:15:38.295 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:15:39.191 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:15:39.975 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:24:35.070 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:24:35.225 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@ae3c140, edu.matc.entity.Topping@6f2d3391, edu.matc.entity.Topping@2dd3d39d]
+[INFO ] 2020-12-16 16:24:37.675 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:24:38.579 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:24:39.077 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:26:19.769 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:26:19.948 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@60816371, edu.matc.entity.Topping@678586f0, edu.matc.entity.Topping@6cbdd1c5]
+[INFO ] 2020-12-16 16:26:22.064 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:26:23.027 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:26:23.638 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-16 16:27:33.096 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-16 16:27:33.238 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@47c96f2c, edu.matc.entity.Topping@7686f701, edu.matc.entity.Topping@210a26b]
+[INFO ] 2020-12-16 16:27:36.280 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:27:37.918 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-16 16:27:38.816 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]

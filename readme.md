@@ -33,5 +33,8 @@ to mix up what kind of pizza they get.
 
 ## Design
 * [Screen Design](DesignDocuments/PizzaGeneratorWireframe.png)
-* [Database Design](DesignDocuments/databaseDiagram.jpg)
+* [Database Design](DesignDocuments/databaseDiagram.png)
 * [Time Log](timeLog.md)
+
+##Demo Video
+https://youtu.be/VW6vb8BG4g4

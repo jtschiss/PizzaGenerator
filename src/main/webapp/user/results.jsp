@@ -3,14 +3,15 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
 <body>
-<p>Hello ${sessionScope.USERNAME}</p>
 
 
-<h1>Your pizza</h1>
+<c:if test="${requestScope.pizza != null}">
+    <h1>Your pizza</h1>
+    <c:forEach var="topping" items="${requestScope.pizza.toppings}" >
+        <p>${topping.topping}</p>
+    </c:forEach>
+</c:if>
 
-<c:forEach var="topping" items="${requestScope.pizza.toppings}" >
-    <p>${topping.topping}</p>
-</c:forEach>
 
 
 <h1>Find Nearby Pizza Places</h1>

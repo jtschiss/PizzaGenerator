@@ -41,7 +41,6 @@ public class PlacesAPIDao {
      */
     public Places getPlacesInfo(String poi, double lat, double lng, int radius) {
         Client client = ClientBuilder.newClient();
-        logger.info("api key: " + key);
         WebTarget target =
                 client.target("https://api.tomtom.com/search/2/search/"+poi+".json?&countrySet=US&&lat="+lat+"&lon="+lng+"&radius="+radius+"&idxSet=POI,addr&key="+key);
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
