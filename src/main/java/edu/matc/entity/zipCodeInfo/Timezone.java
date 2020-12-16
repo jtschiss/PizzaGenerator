@@ -2,6 +2,9 @@ package edu.matc.entity.zipCodeInfo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Timezone.
+ */
 public class Timezone{
 
 	@JsonProperty("timezone_identifier")
@@ -16,34 +19,74 @@ public class Timezone{
 	@JsonProperty("is_dst")
 	private String isDst;
 
+	/**
+	 * Set timezone identifier.
+	 *
+	 * @param timezoneIdentifier the timezone identifier
+	 */
 	public void setTimezoneIdentifier(String timezoneIdentifier){
 		this.timezoneIdentifier = timezoneIdentifier;
 	}
 
+	/**
+	 * Get timezone identifier string.
+	 *
+	 * @return the string
+	 */
 	public String getTimezoneIdentifier(){
 		return timezoneIdentifier;
 	}
 
+	/**
+	 * Set timezone abbr.
+	 *
+	 * @param timezoneAbbr the timezone abbr
+	 */
 	public void setTimezoneAbbr(String timezoneAbbr){
 		this.timezoneAbbr = timezoneAbbr;
 	}
 
+	/**
+	 * Get timezone abbr string.
+	 *
+	 * @return the string
+	 */
 	public String getTimezoneAbbr(){
 		return timezoneAbbr;
 	}
 
+	/**
+	 * Set utc offset sec.
+	 *
+	 * @param utcOffsetSec the utc offset sec
+	 */
 	public void setUtcOffsetSec(int utcOffsetSec){
 		this.utcOffsetSec = utcOffsetSec;
 	}
 
+	/**
+	 * Get utc offset sec int.
+	 *
+	 * @return the int
+	 */
 	public int getUtcOffsetSec(){
 		return utcOffsetSec;
 	}
 
+	/**
+	 * Set is dst.
+	 *
+	 * @param isDst the is dst
+	 */
 	public void setIsDst(String isDst){
 		this.isDst = isDst;
 	}
 
+	/**
+	 * Get is dst string.
+	 *
+	 * @return the string
+	 */
 	public String getIsDst(){
 		return isDst;
 	}

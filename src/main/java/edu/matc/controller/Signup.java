@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * receives data from signup.jsp and signs up a user.
+ * validates passwords match and signs up new user
  */
 @WebServlet(
         name="SignUp",

@@ -19,7 +19,13 @@ import java.util.Properties;
  */
 public class PlacesAPIDao {
 
+    /**
+     * The Loader.
+     */
     PropertiesLoader loader = new PropertiesLoader();
+    /**
+     * The Properties.
+     */
     Properties properties = loader.loadProperties();
     private final Logger logger = LogManager.getLogger(this.getClass());
     private final String key = properties.getProperty("placesAPIKey");

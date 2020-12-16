@@ -14,10 +14,19 @@ import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Liked toppings dao.
+ */
 public class LikedToppingsDao extends GenericDao<LikedToppings> {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Gets liked toppings by user.
+     *
+     * @param user the user
+     * @return the liked toppings by user
+     */
     public List<String> getLikedToppingsByUser(User user) {
         Session session = sessionFactory.openSession();
         String hql = "SELECT T.topping FROM edu.matc.entity.Topping T LEFT JOIN edu.matc.entity.LikedToppings LT on T.id = LT.topping_id JOIN edu.matc.entity.User U on U.id = LT.user_id WHERE U.id = :id";

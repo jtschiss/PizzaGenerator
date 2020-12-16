@@ -13,15 +13,24 @@ import javax.persistence.criteria.Root;
 import javax.validation.ConstraintViolationException;
 import java.util.List;
 
+/**
+ * The type Generic dao.
+ *
+ * @param <E> the type parameter
+ */
 abstract class GenericDao<E> {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Session factory.
+     */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
 
     /**
      * update E
-     * @param e  e to be inserted or updated
+     *
+     * @param e e to be inserted or updated
      */
     public void saveOrUpdate(E e) {
         Session session = sessionFactory.openSession();
@@ -33,7 +42,9 @@ abstract class GenericDao<E> {
 
     /**
      * insert E
-     * @param e  E to be inserted
+     *
+     * @param e E to be inserted
+     * @return the int
      */
     public int insert(E e) {
         int id = 0;
@@ -47,6 +58,7 @@ abstract class GenericDao<E> {
 
     /**
      * Delete a E
+     *
      * @param e E to be deleted
      */
     public void delete(E e) {

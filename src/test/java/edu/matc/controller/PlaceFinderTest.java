@@ -10,10 +10,16 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Place finder test.
+ */
 class PlaceFinderTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Find places.
+     */
     @Test
     void findPlaces() {
         PlaceFinder placeFinder = new PlaceFinder("pizza", "53925", "3");

@@ -11,10 +11,19 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Topping dao test.
+ */
 class ToppingDaoTest {
 
+    /**
+     * The Dao.
+     */
     ToppingDao dao;
 
+    /**
+     * Sets up.
+     */
     @BeforeEach
     void setUp() {
 
@@ -25,6 +34,9 @@ class ToppingDaoTest {
         dao = new ToppingDao();
     }
 
+    /**
+     * Gets topping by id.
+     */
     @Test
     void getToppingById() {
         Topping retrievedTopping = dao.getById(3);
@@ -32,12 +44,18 @@ class ToppingDaoTest {
         assertEquals("Sausage", retrievedTopping.getTopping());
     }
 
+    /**
+     * Gets all.
+     */
     @Test
     void getAll() {
         List<Topping> toppings = dao.getAll();
         assertEquals(17, toppings.size());
     }
 
+    /**
+     * Save or update success.
+     */
     @Test
     void saveOrUpdateSuccess() {
         Topping topping = dao.getById(4);
@@ -53,6 +71,9 @@ class ToppingDaoTest {
 //        assertNull(dao.getById(4));
 //    }
 
+    /**
+     * Insert success.
+     */
     @Test
     void insertSuccess() {
         Topping newTopping = new Topping("specialTopping", 0);
@@ -63,6 +84,9 @@ class ToppingDaoTest {
         assertEquals(0, insertedTopping.getPopularity());
     }
 
+    /**
+     * Gets by name test.
+     */
     @Test
     void getByNameTest() {
         Topping toppings = dao.getByName("Pepperoni");

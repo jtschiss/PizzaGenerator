@@ -16,11 +16,16 @@ import java.util.Properties;
 /**
  * The type Zip code api dao.
  *
- * @author JeevaG
  */
 public class ZipCodeAPIDao {
 
+    /**
+     * The Loader.
+     */
     PropertiesLoader loader = new PropertiesLoader();
+    /**
+     * The Properties.
+     */
     Properties properties = loader.loadProperties();
     private final Logger logger = LogManager.getLogger(this.getClass());
     private final String key = properties.getProperty("zipCodeAPIKey");

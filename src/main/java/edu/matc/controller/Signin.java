@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * forwards user back to home page after sign in
+ * redirects user to home page after signin
  */
 @WebServlet(
         name="Signin",

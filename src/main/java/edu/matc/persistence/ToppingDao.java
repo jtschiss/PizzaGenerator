@@ -8,11 +8,17 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * The type Topping dao.
+ */
 public class ToppingDao extends GenericDao<Topping> {
 
 
     /**
      * Get Topping by id
+     *
+     * @param id the id
+     * @return the by id
      */
     public Topping getById(int id) {
         Session session = sessionFactory.openSession();
@@ -23,6 +29,9 @@ public class ToppingDao extends GenericDao<Topping> {
 
     /**
      * Get Topping by id
+     *
+     * @param name the name
+     * @return the by name
      */
     public Topping getByName(String name) {
         Session session = sessionFactory.openSession();
@@ -37,7 +46,8 @@ public class ToppingDao extends GenericDao<Topping> {
         return toppings.get(0);
     }
 
-        /** Return a list of all Toppings
+    /**
+     * Return a list of all Toppings
      *
      * @return All Toppings
      */

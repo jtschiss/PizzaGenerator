@@ -4,8 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Places api dao test.
+ */
 class PlacesAPIDaoTest {
 
+    /**
+     * Gets places info.
+     */
     @Test
     void getPlacesInfo() {
         PlacesAPIDao dao = new PlacesAPIDao();

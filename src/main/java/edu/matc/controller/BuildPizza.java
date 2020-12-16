@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * forwards list of all users back to pizza builder page after sign in
+ * takes the list of users and outputs a pizza based on their common liked toppings
  */
 @WebServlet(
         name="BuildPizza",

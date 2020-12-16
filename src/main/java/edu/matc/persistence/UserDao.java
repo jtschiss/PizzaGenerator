@@ -15,13 +15,22 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * The type User dao.
+ */
 public class UserDao extends GenericDao<User> {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Session factory.
+     */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
      * Get User by id
+     *
+     * @param id the id
+     * @return the by id
      */
     public User getById(int id) {
         Session session = sessionFactory.openSession();
@@ -30,6 +39,12 @@ public class UserDao extends GenericDao<User> {
         return user;
     }
 
+    /**
+     * Gets by name.
+     *
+     * @param name the name
+     * @return the by name
+     */
     public User getByName(String name) {
         Session session = sessionFactory.openSession();
 
@@ -43,6 +58,12 @@ public class UserDao extends GenericDao<User> {
         return users.get(0);
     }
 
+    /**
+     * Add user int.
+     *
+     * @param user the user
+     * @return the int
+     */
     public int addUser(User user) {
         int id = insert(user);
         Role role = new Role(user, "user", user.getUsername());
@@ -55,7 +76,8 @@ public class UserDao extends GenericDao<User> {
         logger.info("This a temporary method to override the generic dao");
     }
 
-    /** Return a list of all Users
+    /**
+     * Return a list of all Users
      *
      * @return All Users
      */

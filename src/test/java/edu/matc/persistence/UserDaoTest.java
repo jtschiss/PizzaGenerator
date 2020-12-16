@@ -14,10 +14,16 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type User dao test.
+ */
 class UserDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * The Dao.
+     */
     UserDao dao;
 
     /**

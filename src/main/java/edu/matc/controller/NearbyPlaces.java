@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * forwards list of all users back to pizza builder page after sign in
+ * finds pizza places in a given radius from a zip code
  */
 @WebServlet(
         name="NearbyPlaces",

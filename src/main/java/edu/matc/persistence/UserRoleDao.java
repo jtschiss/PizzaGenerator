@@ -14,13 +14,22 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * The type User role dao.
+ */
 public class UserRoleDao extends GenericDao<Role> {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Session factory.
+     */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
      * Get role by id
+     *
+     * @param id the id
+     * @return the by id
      */
     public Role getById(int id) {
         Session session = sessionFactory.openSession();
@@ -30,7 +39,8 @@ public class UserRoleDao extends GenericDao<Role> {
     }
 
 
-    /** Return a list of all Roles
+    /**
+     * Return a list of all Roles
      *
      * @return All Roles
      */

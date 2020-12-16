@@ -12,12 +12,24 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * The type Liked toppings many to many test.
+ */
 public class LikedToppingsManyToManyTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * The Dao.
+     */
     UserDao dao;
+    /**
+     * The Topping dao.
+     */
     ToppingDao toppingDao;
+    /**
+     * The Liked toppings dao.
+     */
     LikedToppingsDao likedToppingsDao;
 
     /**
@@ -36,6 +48,9 @@ public class LikedToppingsManyToManyTest {
         likedToppingsDao = new LikedToppingsDao();
     }
 
+    /**
+     * Update toppings.
+     */
     @Test
     void updateToppings() {
         Set<Topping> toppings = new HashSet<>();
@@ -55,6 +70,9 @@ public class LikedToppingsManyToManyTest {
 
     }
 
+    /**
+     * Gets all users liked toppings.
+     */
     @Test
     void getAllUsersLikedToppings() {
         User user = dao.getById(3);

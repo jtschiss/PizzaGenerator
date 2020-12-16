@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * forwards user back to home page after sign in
+ * gets a list of the user's liked toppings and all toppings for the profile page
  */
 @WebServlet(
         name="Profile",
