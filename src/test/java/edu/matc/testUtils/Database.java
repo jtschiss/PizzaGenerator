@@ -47,7 +47,6 @@ public class Database {
     private void loadProperties() {
         properties = new Properties();
         try {
-            logger.info("properties file: " + DATABASE_PROPERTIES_FILE);
             properties.load (this.getClass().getResourceAsStream(DATABASE_PROPERTIES_FILE));
         } catch (IOException ioe) {
             logger.error("Database.loadProperties()...Cannot load the properties file", ioe);

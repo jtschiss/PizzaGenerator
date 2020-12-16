@@ -1,0 +1,3 @@
+delete from toppings;
+INSERT INTO `toppings` VALUES (1,'Cheddar Cheese',4),(2,'Feta Cheese',1),(3,'Sausage',3),(4,'Pepperoni',10),(5,'Ham',2),(6,'Bacon',4),(7,'Chicken',2),(8,'Jalapenos',2),(9,'Red Onions',2),(10,'Yellow Onions',2),(11,'Tomatoes',2),(12,'Black Olives',4),(13,'Green Olives',2),(14,'Mushrooms',1),(15,'Pineapple',2),(16,'Green Peppers',2),(17,'Spinach',1);
+insert into liked_toppings values (3, 4),(3, 3),(3, 1);

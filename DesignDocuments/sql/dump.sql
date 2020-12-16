@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.16, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: PizzaBuilderTest
+-- Host: 127.0.0.1    Database: PizzaBuilder
 -- ------------------------------------------------------
 -- Server version	8.0.16
 
@@ -16,29 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `role`
+-- Table structure for table `liked_toppings`
 --
 
-DROP TABLE IF EXISTS `role`;
+DROP TABLE IF EXISTS `liked_toppings`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `role` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `role_name` varchar(25) DEFAULT NULL,
-  `username` varchar(50) DEFAULT NULL,
-  `user_id` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `liked_toppings` (
+  `user_id` int(11) NOT NULL,
+  `topping_id` int(11) NOT NULL,
+  PRIMARY KEY (`user_id`,`topping_id`),
+  KEY `liked_toppings_toppings_id_fk` (`topping_id`),
+  CONSTRAINT `liked_toppings_toppings_id_fk` FOREIGN KEY (`topping_id`) REFERENCES `toppings` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `liked_toppings_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `role`
+-- Dumping data for table `liked_toppings`
 --
 
-LOCK TABLES `role` WRITE;
-/*!40000 ALTER TABLE `role` DISABLE KEYS */;
-INSERT INTO `role` VALUES (1,'admin','SteveRogers',9),(2,'user','Joseph',3);
-/*!40000 ALTER TABLE `role` ENABLE KEYS */;
+LOCK TABLES `liked_toppings` WRITE;
+/*!40000 ALTER TABLE `liked_toppings` DISABLE KEYS */;
+/*!40000 ALTER TABLE `liked_toppings` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-02  6:39:48
+-- Dump completed on 2020-12-09  0:30:42

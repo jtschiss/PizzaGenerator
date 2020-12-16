@@ -17,6 +17,10 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <mapping class="edu.matc.entity.User" />
+        <mapping class="edu.matc.entity.Role" />
+        <mapping class="edu.matc.entity.Topping" />
+        <mapping class="edu.matc.entity.LikedToppings" />
+
 
     </session-factory>
 

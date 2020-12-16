@@ -12,15 +12,15 @@ import javax.persistence.*;
  */
 
 @Entity(name = "Role")
-@Table(name = "role")
+@Table(name = "user_roles")
 public class Role {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
     @ManyToOne
     @JoinColumn(name = "user_id",
-                foreignKey = @ForeignKey(name = "role_ibfk_1"))
+                foreignKey = @ForeignKey(name = "FK_UserRole"))
     private User user;
     @Column(name = "role_name")
     private String roleName;
@@ -29,6 +29,12 @@ public class Role {
 
 
     public Role() {
+    }
+
+    public Role(User user, String roleName, String username) {
+        this.user = user;
+        this.roleName = roleName;
+        this.username = username;
     }
 
     public int getId() {

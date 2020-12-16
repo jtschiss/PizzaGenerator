@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.Topping;
 import edu.matc.entity.User;
 import edu.matc.testUtils.Database;
 import org.apache.logging.log4j.LogManager;
@@ -7,7 +8,9 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,7 +29,7 @@ class UserDaoTest {
     void setUp() {
 
         Database database = Database.getInstance();
-        database.runSQL("cleanUser.sql");
+        database.runSQL("cleanRole.sql");
 
         dao = new UserDao();
     }
@@ -66,15 +69,15 @@ class UserDaoTest {
         assertEquals(userAfterUpdate.getUsername(), userToUpDate.getUsername());
     }
 
-    /**
-     * Verify successful delete of User
-     */
-    @Test
-    void deleteSuccess() {
-        User user = dao.getById(2);
-        dao.delete(user);
-        assertNull(dao.getById(2));
-    }
+//    /**
+//     * Verify successful delete of User
+//     */
+//    @Test
+//    void deleteSuccess() {
+//        User user = dao.getById(2);
+//        dao.delete(user);
+//        assertNull(dao.getById(2));
+//    }
 
     /**
      * Verify successful retrieval of all Users
@@ -84,4 +87,5 @@ class UserDaoTest {
         List<User> Users = dao.getAll();
         assertEquals(3, Users.size());
     }
+
 }

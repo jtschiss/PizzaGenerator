@@ -1,5 +1,7 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.Role;
+import edu.matc.entity.Topping;
 import edu.matc.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,7 +15,7 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
-public class UserDao {
+public class UserDao extends GenericDao<User> {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
@@ -28,44 +30,30 @@ public class UserDao {
         return user;
     }
 
-    /**
-     * update User
-     * @param User  User to be inserted or updated
-     */
-    public void saveOrUpdate(User User) {
+    public User getByName(String name) {
         Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        session.saveOrUpdate(User);
-        transaction.commit();
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<User> query = builder.createQuery( User.class );
+        Root<User> root = query.from( User.class );
+        query.select(root).where(builder.equal(root.get("username"), name));
+        List<User> users = session.createQuery( query ).getResultList();
+
         session.close();
+        return users.get(0);
     }
 
-    /**
-     * insert User
-     * @param user  User to be inserted
-     */
-    public int insert(User user) {
-        int id = 0;
-        Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        id = (int)session.save(user);
-        transaction.commit();
-        session.close();
+    public int addUser(User user) {
+        int id = insert(user);
+        Role role = new Role(user, "user", user.getUsername());
+        UserRoleDao roleDao = new UserRoleDao();
+        roleDao.insert(role);
         return id;
     }
 
-    /**
-     * Delete a User
-     * @param user User to be deleted
-     */
     public void delete(User user) {
-        Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-        session.delete(user);
-        transaction.commit();
-        session.close();
+        logger.info("This a temporary method to override the generic dao");
     }
-
 
     /** Return a list of all Users
      *
@@ -78,11 +66,11 @@ public class UserDao {
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<User> query = builder.createQuery( User.class );
         Root<User> root = query.from( User.class );
-        List<User> books = session.createQuery( query ).getResultList();
+        List<User> users = session.createQuery( query ).getResultList();
 
         session.close();
 
-        return books;
+        return users;
     }
 
 }

@@ -5,44 +5,35 @@ import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * receives data from signup.jsp and signs up a user.
+ * listens for username on login.
  */
-@WebServlet(
-        name="SignUp",
-        urlPatterns = {"/signup"}
-)
+public class PreAuthenticationRequestListener implements ServletRequestListener {
 
-public class PreAuthenticationRequestListener extends HttpServlet {
+    public static final String USERNAME_KEY = "USERNAME";
+
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void requestDestroyed(ServletRequestEvent sre) {
 
-        String username = req.getParameter("username");
-        String pass = req.getParameter("password1");
-        String confirmPass = req.getParameter("password2");
-
-
-        if (pass.equals(confirmPass)) {
-            User user = new User(username, pass);
-            UserDao userDao = new UserDao();
-            int id = userDao.addUser(user);
-            if (id != 0) {
-                req.setAttribute("confirmation", "Your account has been created successfully!");
-            } else {
-                req.setAttribute("confirmation", "Your account was unable to be created. Please try again.");
-            }
-        } else {
-            req.setAttribute("confirmation", "Passwords to not match.");
-        }
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/signup.jsp");
-        dispatcher.forward(req, resp);
     }
 
+    @Override
+    public void requestInitialized(ServletRequestEvent sre) {
+        HttpServletRequest request = (HttpServletRequest)sre.getServletRequest();
+        if (request.getRequestURI().contains("j_security_check")) {
+            final String username = request.getParameter("j_username");
+
+            HttpSession session = request.getSession();
+            session.setAttribute(USERNAME_KEY, username);
+        }
+    }
 }

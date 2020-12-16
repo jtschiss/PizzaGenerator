@@ -12,36 +12,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * receives data from signup.jsp and signs up a user.
+ * forwards user back to home page after sign in
  */
 @WebServlet(
-        name="SignUp",
-        urlPatterns = {"/signup"}
+        name="Signin",
+        urlPatterns = {"/user/login"}
 )
-
-public class Signup extends HttpServlet {
+public class Signin extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        String username = req.getParameter("username");
-        String pass = req.getParameter("password1");
-        String confirmPass = req.getParameter("password2");
-
-
-        if (pass.equals(confirmPass)) {
-            User user = new User(username, pass);
-            UserDao userDao = new UserDao();
-            int id = userDao.addUser(user);
-            if (id != 0) {
-                req.setAttribute("confirmation", "Your account has been created successfully!");
-            } else {
-                req.setAttribute("confirmation", "Your account was unable to be created. Please try again.");
-            }
-        } else {
-            req.setAttribute("confirmation", "Passwords to not match.");
-        }
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/signup.jsp");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
     }
 
