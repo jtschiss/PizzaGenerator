@@ -36,5 +36,5 @@ to mix up what kind of pizza they get.
 * [Database Design](DesignDocuments/databaseDiagram.png)
 * [Time Log](timeLog.md)
 
-##Demo Video
+## Demo Video
 https://youtu.be/VW6vb8BG4g4
