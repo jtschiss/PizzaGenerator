@@ -11,3 +11,22 @@
 [INFO ] 2020-12-15 22:04:31.146 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
 [INFO ] 2020-12-15 22:05:24.258 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
 [INFO ] 2020-12-15 22:05:38.516 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:14:42.116 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 23:14:42.205 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@7ab2ba47, edu.matc.entity.Topping@40fe8fd5, edu.matc.entity.Topping@37ffe4f3]
+[INFO ] 2020-12-15 23:14:43.784 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:18:58.357 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 23:18:58.448 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@74ce7fdf, edu.matc.entity.Topping@2f60cbf2, edu.matc.entity.Topping@1f26b992]
+[INFO ] 2020-12-15 23:18:59.856 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:20:43.415 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 23:20:43.598 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
+[INFO ] 2020-12-15 23:20:45.004 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:21:30.977 [http-nio-8080-exec-9] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:38:34.102 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 23:38:34.220 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@631bc9f4]
+[INFO ] 2020-12-15 23:38:36.573 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:41:39.450 [main] LikedToppingsManyToManyTest - Liked Toppings: [Cheddar Cheese, Sausage, Pepperoni]
+[INFO ] 2020-12-15 23:41:39.602 [main] LikedToppingsManyToManyTest - liked toppings:[edu.matc.entity.Topping@642c72cf, edu.matc.entity.Topping@4e6cbdf1, edu.matc.entity.Topping@67fac095]
+[INFO ] 2020-12-15 23:41:41.297 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:49:00.088 [main] PlacesAPIDao - api key: xXTUjWK3IWfbyHFFa9BeodUoFglYsJvG
+[INFO ] 2020-12-15 23:49:01.110 [main] PlaceFinder - simple places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]
+[INFO ] 2020-12-15 23:49:01.112 [main] PlaceFinderTest - Test Places: [SimplePlace{name='Day One Pizza', address='749 Park Avenue, Columbus, WI 53925', phone='+(1)-(920)-6232300', website='dayonepizzadelivery.com'}, SimplePlace{name='DJ Jim's Pizza', address='141 North Ludington Street, Columbus, WI 53925', phone='+(1)-(920)-6239190', website='null'}]

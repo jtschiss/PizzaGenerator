@@ -33,8 +33,6 @@ public class BuildPizza extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-
-
         UserDao userDao = new UserDao();
         List<User> usersList = new ArrayList<>();
         List<String> users = new ArrayList<String>();
@@ -76,7 +74,7 @@ public class BuildPizza extends HttpServlet {
         req.setAttribute("pizza", pizza);
         req.setAttribute("usersList", usersList);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/user/forwardUsers");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/user/results.jsp");
         dispatcher.forward(req, resp);
     }
 
